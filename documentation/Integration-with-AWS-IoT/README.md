@@ -39,7 +39,7 @@ In this event-driven scenario, based on the real-time status of the IoT Devices 
 ## Solution Architecture
 
 The key services used from Amazon AWS are AWS IoT Core, Amazon SWS and Amazon Event Bridge.
-The services used from SAP BTP are the Cloud Foundry Runtime, SAP Event Mesh, SAP Connectivity service, SAP Private Link service, SAP Workflow Management, SAP Event Mesh Connectivity Plan(Beta) and SAP Destination service.
+The services used from SAP BTP are the Cloud Foundry Runtime, SAP Event Mesh or SAP Advanced Event Mesh, SAP Connectivity service, SAP Private Link service, SAP Build Process Automation, Connectivity Plan(Beta) and SAP Destination service.
 
 SAP Private Link service is used for connectivity between SAP BTP and SAP S/4HANA when both the systems are running on Amazon AWS Infrastructure, in this tutorial you will find implementation steps for SAP BTP Private Link service and AWS Private Link service. Alternatively you can use SAP Connectivity service and Cloud Connector for integration of SAP BTP and SAP S/4HANA as well.
 
